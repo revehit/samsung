@@ -1,0 +1,12 @@
+.radix-themes {
+  --container-4: 100%;//1280px
+}
+
+html[data-device="mobile"] {
+  .radix-themes {
+    --container-4: 100%;
+  }
+  .rt-ContainerInner {
+    padding-inline: var(--space-5);
+  }
+}

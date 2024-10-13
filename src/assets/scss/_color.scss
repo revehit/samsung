@@ -1,0 +1,298 @@
+/**
+ * 엑센트 컬러
+ */
+
+:root,
+.light,
+.light-theme {
+  --blue-1: #fbfdff;
+  --blue-2: #f3faff;
+  --blue-3: #e5f3ff;
+  --blue-4: #d4edff;
+  --blue-5: #c1e3ff;
+  --blue-6: #a9d6ff;
+  --blue-7: #8bc4ff;
+  --blue-8: #5babff;
+  --blue-9: #024383;
+  --blue-10: #1a5596;
+  --blue-11: #1d71cd;
+  --blue-12: #003371;
+
+  --blue-a1: #0080ff04;
+  --blue-a2: #0095ff0c;
+  --blue-a3: #008aff1a;
+  --blue-a4: #0195ff2b;
+  --blue-a5: #008cff3e;
+  --blue-a6: #0086ff56;
+  --blue-a7: #007eff74;
+  --blue-a8: #007dffa4;
+  --blue-a9: #004282fd;
+  --blue-a10: #00428ae5;
+  --blue-a11: #005fc7e2;
+  --blue-a12: #003371;
+
+  --blue-contrast: #fff;
+  --blue-surface: #f0f9ffcc;
+  --blue-indicator: #024383;
+  --blue-track: #024383;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    :root,
+    .light,
+    .light-theme {
+      --blue-1: oklch(99.3% 0.0049 254.3);
+      --blue-2: oklch(98.1% 0.0132 254.3);
+      --blue-3: oklch(96% 0.0285 254.3);
+      --blue-4: oklch(93.7% 0.0508 254.3);
+      --blue-5: oklch(90.5% 0.0718 254.3);
+      --blue-6: oklch(86.3% 0.0916 254.3);
+      --blue-7: oklch(80.8% 0.1177 254.3);
+      --blue-8: oklch(73.4% 0.1609 254.3);
+      --blue-9: oklch(38.6% 0.1225 254.3);
+      --blue-10: oklch(44.8% 0.1225 254.3);
+      --blue-11: oklch(55.1% 0.1609 254.3);
+      --blue-12: oklch(32.9% 0.1225 254.3);
+
+      --blue-a1: color(display-p3 0.0235 0.5137 1 / 0.016);
+      --blue-a2: color(display-p3 0.0196 0.5569 0.9137 / 0.044);
+      --blue-a3: color(display-p3 0.0118 0.4863 0.9608 / 0.091);
+      --blue-a4: color(display-p3 0.0078 0.5059 0.949 / 0.15);
+      --blue-a5: color(display-p3 0.0039 0.4745 0.949 / 0.216);
+      --blue-a6: color(display-p3 0.0039 0.4549 0.949 / 0.302);
+      --blue-a7: color(display-p3 0.0039 0.4157 0.9529 / 0.408);
+      --blue-a8: color(display-p3 0 0.4039 0.9529 / 0.565);
+      --blue-a9: color(display-p3 0 0.1765 0.4392 / 0.899);
+      --blue-a10: color(display-p3 0 0.1922 0.4824 / 0.832);
+      --blue-a11: color(display-p3 0 0.2784 0.7176 / 0.781);
+      --blue-a12: color(display-p3 0 0.1333 0.3843 / 0.93);
+
+      --blue-contrast: #fff;
+      --blue-surface: color(display-p3 0.949 0.9725 1 / 0.8);
+      --blue-indicator: oklch(38.6% 0.1225 254.3);
+      --blue-track: oklch(38.6% 0.1225 254.3);
+    }
+  }
+}
+
+/**
+  세컨 컬러
+ */
+
+:root,
+.light,
+.light-theme {
+  --red-1: #fffcfb;
+  --red-2: #fff6f4;
+  --red-3: #ffeae3;
+  --red-4: #ffd7cb;
+  --red-5: #ffc8b8;
+  --red-6: #ffb7a3;
+  --red-7: #ffa48f;
+  --red-8: #f68971;
+  --red-9: #f94f29;
+  --red-10: #ec3e13;
+  --red-11: #db3000;
+  --red-12: #5d281c;
+
+  --red-a1: #ff400004;
+  --red-a2: #ff2f000b;
+  --red-a3: #ff40001c;
+  --red-a4: #ff3b0034;
+  --red-a5: #ff3a0047;
+  --red-a6: #ff38005c;
+  --red-a7: #ff300070;
+  --red-a8: #ef2b008e;
+  --red-a9: #f82d00d6;
+  --red-a10: #eb2f00ec;
+  --red-a11: #db3000;
+  --red-a12: #490e00e3;
+
+  --red-contrast: #fff;
+  --red-surface: #fff4f1cc;
+  --red-indicator: #f94f29;
+  --red-track: #f94f29;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    :root,
+    .light,
+    .light-theme {
+      --red-1: oklch(99.3% 0.0031 33.87);
+      --red-2: oklch(98.1% 0.0121 33.87);
+      --red-3: oklch(95.6% 0.0306 33.87);
+      --red-4: oklch(92.3% 0.0684 33.87);
+      --red-5: oklch(89.1% 0.0914 33.87);
+      --red-6: oklch(85.5% 0.1017 33.87);
+      --red-7: oklch(80.4% 0.1127 33.87);
+      --red-8: oklch(74.3% 0.1374 33.87);
+      --red-9: oklch(66.1% 0.2124 33.87);
+      --red-10: oklch(62.2% 0.2154 33.87);
+      --red-11: oklch(58% 0.2116 33.87);
+      --red-12: oklch(34.8% 0.0817 33.87);
+
+      --red-a1: color(display-p3 0.7569 0.2667 0.0235 / 0.016);
+      --red-a2: color(display-p3 0.8235 0.2 0.0196 / 0.044);
+      --red-a3: color(display-p3 0.8549 0.2627 0.0039 / 0.106);
+      --red-a4: color(display-p3 0.8824 0.2275 0.0078 / 0.197);
+      --red-a5: color(display-p3 0.8706 0.2235 0.0039 / 0.267);
+      --red-a6: color(display-p3 0.8745 0.2196 0.0039 / 0.346);
+      --red-a7: color(display-p3 0.8784 0.1882 0.0039 / 0.42);
+      --red-a8: color(display-p3 0.8235 0.1725 0 / 0.534);
+      --red-a9: color(display-p3 0.8745 0.1725 0 / 0.773);
+      --red-a10: color(display-p3 0.8235 0.1608 0 / 0.832);
+      --red-a11: color(display-p3 0.7608 0.149 0 / 0.875);
+      --red-a12: color(display-p3 0.2471 0.0549 0 / 0.879);
+
+      --red-contrast: #fff;
+      --red-surface: color(display-p3 1 0.9569 0.9451 / 0.8);
+      --red-indicator: oklch(66.1% 0.2124 33.87);
+      --red-track: oklch(66.1% 0.2124 33.87);
+    }
+  }
+}
+
+/**
+   그레이 컬러
+ */
+
+:root,
+.light,
+.light-theme {
+  --gray-1: #fcfcfc;
+  --gray-2: #f9f9f9;
+  --gray-3: #efefef;
+  --gray-4: #e8e8e8;
+  --gray-5: #e0e0e0;
+  --gray-6: #d8d8d8;
+  --gray-7: #cecece;
+  --gray-8: #bbb;
+  --gray-9: #8d8d8d;
+  --gray-10: #838383;
+  --gray-11: #646464;
+  --gray-12: #202020;
+
+  --gray-a1: #00000003;
+  --gray-a2: #00000006;
+  --gray-a3: #00000010;
+  --gray-a4: #00000017;
+  --gray-a5: #0000001f;
+  --gray-a6: #00000027;
+  --gray-a7: #00000031;
+  --gray-a8: #00000044;
+  --gray-a9: #00000072;
+  --gray-a10: #0000007c;
+  --gray-a11: #0000009b;
+  --gray-a12: #000000df;
+
+  --gray-contrast: #ffffff;
+  --gray-surface: #ffffffcc;
+  --gray-indicator: #8d8d8d;
+  --gray-track: #8d8d8d;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    :root,
+    .light,
+    .light-theme {
+      --gray-1: oklch(99.1% 0 none);
+      --gray-2: oklch(98.1% 0 none);
+      --gray-3: oklch(95.3% 0 none);
+      --gray-4: oklch(93% 0 none);
+      --gray-5: oklch(90.8% 0 none);
+      --gray-6: oklch(88.4% 0 none);
+      --gray-7: oklch(85.1% 0 none);
+      --gray-8: oklch(79.1% 0 none);
+      --gray-9: oklch(64.3% 0 none);
+      --gray-10: oklch(60.9% 0 none);
+      --gray-11: oklch(50.3% 0 none);
+      --gray-12: oklch(24.3% 0 none);
+
+      --gray-a1: color(display-p3 0 0 0 / 0.0118);
+      --gray-a2: color(display-p3 0 0 0 / 0.0235);
+      --gray-a3: color(display-p3 0 0 0 / 0.0627);
+      --gray-a4: color(display-p3 0 0 0 / 0.0902);
+      --gray-a5: color(display-p3 0 0 0 / 0.1216);
+      --gray-a6: color(display-p3 0 0 0 / 0.1529);
+      --gray-a7: color(display-p3 0 0 0 / 0.1922);
+      --gray-a8: color(display-p3 0 0 0 / 0.2667);
+      --gray-a9: color(display-p3 0 0 0 / 0.4471);
+      --gray-a10: color(display-p3 0 0 0 / 0.4863);
+      --gray-a11: color(display-p3 0 0 0 / 0.6078);
+      --gray-a12: color(display-p3 0 0 0 / 0.8745);
+
+      --gray-contrast: #ffffff;
+      --gray-surface: color(display-p3 1 1 1 / 80%);
+      --gray-indicator: oklch(64.3% 0 none);
+      --gray-track: oklch(64.3% 0 none);
+    }
+  }
+}
+
+/**
+  시멘틱 변수들
+ */
+.radix-themes {
+  --border-light: var(--gray-4);
+  --border-basic: var(--gray-7);
+  --border-darken: var(--gray-12);
+  --border-light-blue: var(--blue-6);
+
+  --bg-light: var(--gray-2);
+  --bg-darken: var(--gray-8);
+  --bg-white: var(--gray-1);
+  --bg-light-blue: var(--blue-2);
+  --bg-blue: var(--blue-3);
+  --bg-light-blue: #F3F8FD;
+  --bg-yellow: #FDFBF3;
+  --bg-red: var(--red-1);
+  --bg-green: #EDF5E7;
+  --bg-purple: #FDF5F3;
+
+  --color-primary: var(--accent-9);
+  --color-secondary: var(--red-9);
+  --color-error: var(--red-9);
+  --color-info: #128de9;
+
+  /* elements color */
+  --elements-orange: #ff9f2f;
+  --elements-yellow: #FFDB5F; //#ffcf26;
+  --elements-green: #93cd3d;
+  --elements-blue: #71AEFF; // #4593f9;
+  --elements-mint: #A7E7DE; //#62ddcc;
+  --elements-violet: #C79BFF;//#9d68f2;
+  --elements-peach: #FFB2AA;//#ffa69d;
+
+  /* sw CI color */
+  --sw-dark-blue: var(--blue-9);
+  --sw-orange: #f95029;
+  --sw-yellow: #f9a61a;
+  --sw-green: #00a885;
+  --sw-light-blue: #2073d1;
+  --sw-bg-line-blue: #a8ceff;
+  --sw-bg-line-green: #b9e37b;
+
+  --font-white: var(--gray-1);
+  --font-light: var(--gray-7);
+  --font-basic: var(--gray-11);
+  --font-darken: var(--gray-12);
+  --font-point: var(--accent-9);
+  --font-error: var(--red-9);
+  --font-disabled: var(--gray-5);
+
+  --font-color-white: var(--gray-1);
+  --font-color-light: var(--gray-7);
+  --font-color-basic: var(--gray-11);
+  --font-color-darken: var(--gray-12);
+  --font-color-point: var(--accent-9);
+  --font-color-error: var(--red-9);
+  --font-color-disabled: var(--gray-5);
+
+  /* badge color */
+  --bg-avatar: var(--color-primary);
+  --bg-chart: var(--color-error);
+  --bg-clock: var(--color-info);
+}
