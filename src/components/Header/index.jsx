@@ -30,16 +30,16 @@ const Header = ({ isActive }) => {
               <img src={IMAGES.headerLogo.src} alt={IMAGES.headerLogo.alt} />
             </h1>
             <nav id="menu">
-              <a href="#" onClick={openNewWindow2}>병원소개</a>
-              <a href="#" onClick={openNewWindow}>지점소개</a>
-              <a href="#">원스텝진료</a>
-              <a href="#">수면센터</a>
-              <a href="#">고객이야기</a>
+              <a href="#!" onClick={openNewWindow2}>병원소개</a>
+              <a href="#!" onClick={openNewWindow}>지점소개</a>
+              <a href="#!">원스텝진료</a>
+              <a href="#!">수면센터</a>
+              <a href="#!">고객이야기</a>
             </nav>
             <Flex gap="10px" className='user-nav'>
-              <a href="#">로그인</a>
-              <a href="#">회원가입</a>
-              <a href="#">리얼모델 모집</a>
+              <a href="#!">로그인</a>
+              <a href="#!">회원가입</a>
+              <a href="#!">리얼모델 모집</a>
             </Flex>
           </Flex>
         </Container>

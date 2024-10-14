@@ -22,6 +22,7 @@ import visualImg5 from "../../assets/images/pages/main/nouse.png";
 import visualBg from "../../assets/images/pages/main/main-visual-bg.png";
 import sliderImg1 from "../../assets/images/pages/main/slider-section-img01.jpg";
 import sliderImg2 from "../../assets/images/pages/main/slider-section-img02.jpg";
+import sliderImg3 from "../../assets/images/pages/main/slider-section-img03.jpg";
 import locationImg1 from "../../assets/images/pages/main/img-gangnam.jpg";
 import locationImg2 from "../../assets/images/pages/main/img-jonglo.jpg";
 import locationImg3 from "../../assets/images/pages/main/img-songdo.jpg";
@@ -50,6 +51,7 @@ const IMAGES = {
   visualBg: { src: visualBg, alt: "" },
   sliderImg1: { src: sliderImg1, alt: "" },
   sliderImg2: { src: sliderImg2, alt: "" },
+  sliderImg3: { src: sliderImg3, alt: "" },
   locationImg1: { src: locationImg1, alt: "" },
   locationImg2: { src: locationImg2, alt: "" },
   locationImg3: { src: locationImg3, alt: "" },
@@ -311,6 +313,9 @@ const Main = () => {
               <SwiperSlide>
                 <img src={IMAGES.sliderImg2.src} alt={IMAGES.sliderImg2.alt} />
               </SwiperSlide>
+              <SwiperSlide>
+                <img src={IMAGES.sliderImg3.src} alt={IMAGES.sliderImg3.alt} />
+              </SwiperSlide>
             </Swiper>
           </div>
         </Container>
@@ -327,14 +332,14 @@ const Main = () => {
                 <div className='hidden-box'>
                   <p className="box-title">강남점</p>
                   <Flex align="center" gap="10px">
-                    <a href="#" className='icon kakao'></a>
-                    <a href="#" className='icon facebook'></a>
-                    <a href="#" className='icon blog'></a>
-                    <a href="#" className='icon call'></a>
+                    <span className='icon kakao'></span>
+                    <span className='icon facebook'></span>
+                    <span className='icon blog'></span>
+                    <span className='icon call'></span>
                   </Flex>
                   <div className='btn-wrap'>
-                    <a href="#" className='btn link'>오시는 길</a>
-                    <a href="#" className='btn link'>지점 소개</a>
+                    <a href="#!" className='btn link'>오시는 길</a>
+                    <a href="#!" className='btn link'>지점 소개</a>
                   </div>
                 </div>
               </div>
@@ -344,14 +349,14 @@ const Main = () => {
                 <div className='hidden-box'>
                   <p className="box-title">삼성점</p>
                   <Flex align="center" gap="10px">
-                    <a href="#" className='icon kakao'></a>
-                    <a href="#" className='icon facebook'></a>
-                    <a href="#" className='icon blog'></a>
-                    <a href="#" className='icon call'></a>
+                    <span className='icon kakao'></span>
+                    <span className='icon facebook'></span>
+                    <span className='icon blog'></span>
+                    <span className='icon call'></span>
                   </Flex>
                   <div className='btn-wrap'>
-                    <a href="#" className='btn link'>오시는 길</a>
-                    <a href="#" className='btn link'>지점 소개</a>
+                    <a href="#!" className='btn link'>오시는 길</a>
+                    <a href="#!" className='btn link'>지점 소개</a>
                   </div>
                 </div>
               </div>
@@ -361,14 +366,14 @@ const Main = () => {
                 <div className='hidden-box'>
                   <p className="box-title">노원점</p>
                   <Flex align="center" gap="10px">
-                    <a href="#" className='icon kakao'></a>
-                    <a href="#" className='icon facebook'></a>
-                    <a href="#" className='icon blog'></a>
-                    <a href="#" className='icon call'></a>
+                    <span className='icon kakao'></span>
+                    <span className='icon facebook'></span>
+                    <span className='icon blog'></span>
+                    <span className='icon call'></span>
                   </Flex>
                   <div className='btn-wrap'>
-                    <a href="#" className='btn link'>오시는 길</a>
-                    <a href="#" className='btn link'>지점 소개</a>
+                    <a href="#!" className='btn link'>오시는 길</a>
+                    <a href="#!" className='btn link'>지점 소개</a>
                   </div>
                 </div>
               </div>
@@ -378,14 +383,14 @@ const Main = () => {
                 <div className='hidden-box'>
                   <p className="box-title">종로점</p>
                   <Flex align="center" gap="10px">
-                    <a href="#" className='icon kakao'></a>
-                    <a href="#" className='icon facebook'></a>
-                    <a href="#" className='icon blog'></a>
-                    <a href="#" className='icon call'></a>
+                    <span className='icon kakao'></span>
+                    <span className='icon facebook'></span>
+                    <span className='icon blog'></span>
+                    <span className='icon call'></span>
                   </Flex>
                   <div className='btn-wrap'>
-                    <a href="#" className='btn link'>오시는 길</a>
-                    <a href="#" className='btn link'>지점 소개</a>
+                    <a href="#!" className='btn link'>오시는 길</a>
+                    <a href="#!" className='btn link'>지점 소개</a>
                   </div>
                 </div>
               </div>
@@ -395,14 +400,14 @@ const Main = () => {
                 <div className='hidden-box'>
                   <p className="box-title">일산점</p>
                   <Flex align="center" gap="10px">
-                    <a href="#" className='icon kakao'></a>
-                    <a href="#" className='icon facebook'></a>
-                    <a href="#" className='icon blog'></a>
-                    <a href="#" className='icon call'></a>
+                    <span className='icon kakao'></span>
+                    <span className='icon facebook'></span>
+                    <span className='icon blog'></span>
+                    <span className='icon call'></span>
                   </Flex>
                   <div className='btn-wrap'>
-                    <a href="#" className='btn link'>오시는 길</a>
-                    <a href="#" className='btn link'>지점 소개</a>
+                    <a href="#!" className='btn link'>오시는 길</a>
+                    <a href="#!" className='btn link'>지점 소개</a>
                   </div>
                 </div>
               </div>
@@ -412,14 +417,14 @@ const Main = () => {
                 <div className='hidden-box'>
                   <p className="box-title">송도점</p>
                   <Flex align="center" gap="10px">
-                    <a href="#" className='icon kakao'></a>
-                    <a href="#" className='icon facebook'></a>
-                    <a href="#" className='icon blog'></a>
-                    <a href="#" className='icon call'></a>
+                    <span className='icon kakao'></span>
+                    <span className='icon facebook'></span>
+                    <span className='icon blog'></span>
+                    <span className='icon call'></span>
                   </Flex>
                   <div className='btn-wrap'>
-                    <a href="#" className='btn link'>오시는 길</a>
-                    <a href="#" className='btn link'>지점 소개</a>
+                    <a href="#!" className='btn link'>오시는 길</a>
+                    <a href="#!" className='btn link'>지점 소개</a>
                   </div>
                 </div>
               </div>
@@ -455,7 +460,7 @@ const Main = () => {
                 <strong>오직, 결과로 전문성을 입증합니다.</strong>
               </h2>
               <Flex justify="center" gap="30px">
-                <a href="#" className='box'>
+                <a href="#!" className='box'>
                   <img src={IMAGES.professionalImg1.src} alt={IMAGES.professionalImg1.alt} />
                   <div className='text-box'>
                     <p>비중격 연골의 최소 절제!</p>
@@ -463,7 +468,7 @@ const Main = () => {
                     <div className='hidden'></div>
                   </div>
                 </a>
-                <a href="#" className='box'>
+                <a href="#!" className='box'>
                   <img src={IMAGES.professionalImg2.src} alt={IMAGES.professionalImg2.alt} />
                   <div className='text-box'>
                     <p>5가지 밀도있는 원인분석</p>
@@ -471,7 +476,7 @@ const Main = () => {
                     <div className='hidden'></div>
                   </div>
                 </a>
-                <a href="#" className='box'>
+                <a href="#!" className='box'>
                   <img src={IMAGES.professionalImg3.src} alt={IMAGES.professionalImg3.alt} />
                   <div className='text-box'>
                     <p>휜 코 수술과 비중격 수술을 한 번에!</p>
@@ -479,7 +484,7 @@ const Main = () => {
                     <div className='hidden'></div>
                   </div>
                 </a>
-                <a href="#" className='box'>
+                <a href="#!" className='box'>
                   <img src={IMAGES.professionalImg4.src} alt={IMAGES.professionalImg4.alt} />
                   <div className='text-box'>
                     <p>코수술! 이젠 기품있는 업다운스타일로~</p>

@@ -2,12 +2,6 @@ import React from 'react';
 import "./style.scss";
 import { Flex } from "@radix-ui/themes";
 
-import floatingLogo from "../../assets/images/pages/main/icon-logo.png";
-
-const IMAGES = {
-  floatingLogo: { src: floatingLogo, alt: "" },
-};
-
 const FloatingMenu = ({ isActive }) => {
   return (
     <>
@@ -16,12 +10,12 @@ const FloatingMenu = ({ isActive }) => {
           <Flex>
             <div className='title-box'>삼성드림이비인후과 지점안내</div>
             <Flex align="center">
-              <a href="#">강남점</a>
-              <a href="#">삼성점</a>
-              <a href="#">노원점</a>
-              <a href="#">종로점</a>
-              <a href="#">일산점</a>
-              <a href="#">송도점</a>
+              <a href="#!">강남점</a>
+              <a href="#!">삼성점</a>
+              <a href="#!">노원점</a>
+              <a href="#!">종로점</a>
+              <a href="#!">일산점</a>
+              <a href="#!">송도점</a>
             </Flex>
           </Flex>
         </div>
