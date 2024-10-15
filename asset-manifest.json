@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/samsung/static/css/main.6d7d620f.css",
-    "main.js": "/samsung/static/js/main.c6c65aed.js",
+    "main.css": "/samsung/static/css/main.30a8de37.css",
+    "main.js": "/samsung/static/js/main.af4161d9.js",
     "static/js/453.1f8b9855.chunk.js": "/samsung/static/js/453.1f8b9855.chunk.js",
-    "static/media/slider-section-img03.jpg": "/samsung/static/media/slider-section-img03.b425449499e3c96aba3a.jpg",
     "static/media/people1.png": "/samsung/static/media/people1.e0847fa7ee487f7d1ab7.png",
     "static/media/people4.png": "/samsung/static/media/people4.dacf5ac9ab756e0af1ce.png",
     "static/media/people3.png": "/samsung/static/media/people3.7b3a0aced8464a0ca9ee.png",
@@ -55,12 +54,12 @@
     "static/media/logo.png": "/samsung/static/media/logo.b6e299bd1d5e6ebf80c7.png",
     "static/media/icon-nouse.svg": "/samsung/static/media/icon-nouse.a45234566263bb64c87e.svg",
     "index.html": "/samsung/index.html",
-    "main.6d7d620f.css.map": "/samsung/static/css/main.6d7d620f.css.map",
-    "main.c6c65aed.js.map": "/samsung/static/js/main.c6c65aed.js.map",
+    "main.30a8de37.css.map": "/samsung/static/css/main.30a8de37.css.map",
+    "main.af4161d9.js.map": "/samsung/static/js/main.af4161d9.js.map",
     "453.1f8b9855.chunk.js.map": "/samsung/static/js/453.1f8b9855.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d7d620f.css",
-    "static/js/main.c6c65aed.js"
+    "static/css/main.30a8de37.css",
+    "static/js/main.af4161d9.js"
   ]
 }
